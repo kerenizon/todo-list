@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./todo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9809fda226.js" crossorigin="anonymous"></script>
     <title>todo-list app</title>
 </head>
 <body>
     <h1>TO-DO LIST</h1>
     <button class="plusBtn"> + </button>
     <div class="container">
-
+        <div class="modal-outer">
+            <div class="modal-inner">
+                <div class="input">
+                    <label class="title">title:</label>
+                    <input class="titleInput" name="titleInput" type="text" placeholder="task title"><br>
+                    <label class="taskNo">task no.</label>
+                    <label class="taskNum"></label> <br>
+                    <label class="tasktxt">task:</label> <br>
+                    <textarea class="textareaInput" name="textareaInput" cols="50" rows="10" placeholder="task details..."></textarea><br>
+                    <!-- <input type="button" class="submit"> -->
+                    <button class="submit">submit</button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="./todo.js"></script>
 </body>
